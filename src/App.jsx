@@ -3,8 +3,10 @@ import { useState } from 'react'
 function App() {
   // useState hook holds our list of todos and the text typed in the input box
   const [todos, setTodos] = useState([
-    { id: 1, text: 'Learn React hooks', done: false },
+    { id: 1, text: 'Meditate', done: false },
     { id: 2, text: 'Prep for interview', done: true },
+    { id: 3, text: 'Water the plants', done: false },
+    { id: 4, text: 'Take notes', done: false },
   ])
   const [inputText, setInputText] = useState('')
 
